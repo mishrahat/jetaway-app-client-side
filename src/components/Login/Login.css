@@ -1,0 +1,56 @@
+.login-form{
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.form-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+
+.form-btn:hover {
+    background-color: rgb(83, 77, 77);
+    color: black;
+}
+
+.form-input {
+    font-family: 'Poppins';
+}
+
+.other-btn {
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.other-btn a {
+    text-decoration: none;
+    color: rgb(22, 22, 243);
+}
+
+.other-btn button {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.other-btn img {
+    width: 20px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .login-form {
+          width: 300px;
+      }
+
+      .other-btn {
+          position: relative;
+          right: 300px;
+      }
+  }
+

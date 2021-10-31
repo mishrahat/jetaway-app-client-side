@@ -1,0 +1,14 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.nav-item a {
+    text-decoration: none;
+    margin-left: 60px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item a:hover {
+    color: rgb(92, 92, 189);
+}

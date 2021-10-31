@@ -1,0 +1,42 @@
+.footer {
+    background-color: #0197a8;
+}
+
+
+.footer-info {
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    position: relative;
+    top: -40px;
+    left: 19px;
+}
+
+.footer-btn {
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Poppins';
+    position: relative;
+    bottom: 20px;
+    margin-right: 100px;
+}
+
+
+
+.btn-text {
+    position: relative;
+    margin-left: 13px;
+}
+
+.download-text {
+    font-size: 10px;
+}
+
+.content {
+    position: relative;
+    top: -2px;
+}

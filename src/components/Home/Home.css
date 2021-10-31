@@ -1,0 +1,137 @@
+.home-banner {
+    background-image: url('../../assets/images/banner-jet.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: cover;
+}
+.banner-title {
+    font-size: 90px;
+    font-family: 'Poppins';
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.banner-info {
+    padding-top: 20px;
+    padding-bottom: 200px;
+    margin-top: 100px;
+}
+
+.main-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px 40px 20px 40px;
+}
+
+.main-btn a:hover {
+    background-color: rgb(53, 132, 163);
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 700;
+    -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.accordion-button {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.accordion-body {
+    font-family: 'Poppins';
+    
+}
+
+.qna-info {
+    margin-top: 70px;
+    width: 600px;
+}
+
+hr {
+    width: 100px;
+    border: 2px solid rgb(255, 2, 86);
+}
+
+@-webkit-keyframes title {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+}
+
+/* media query for responsive */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.main-btn {
+    position: relative;
+    right: 270px;
+    top: -300px;
+    padding: 0px;
+    width: 400px;
+}
+
+.banner-title {
+    font-size: 40px;
+}
+
+.main-btn a {
+    font-size: 30px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    right: 50px;
+
+}
+
+.users-part img {
+    position: relative;
+    left: 40px;
+}
+
+}
